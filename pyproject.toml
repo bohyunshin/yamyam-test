@@ -15,6 +15,7 @@ build-backend = "poetry.core.masonry.api"
 
 [tool.poetry]
 package-mode = true
+packages = [{include = "yamyam_test", from = "src"}]
 
 [tool.poetry.dependencies]
 python = "^3.12"
